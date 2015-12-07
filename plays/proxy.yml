@@ -1,0 +1,11 @@
+---
+#haproxy.yml : playbook pfor HAProxy Servers
+- hosts: proxy-servers
+  pre_tasks:
+  - shell: echo 'Starting Proxy Servers Installation'
+  roles:
+     - haproxy
+# we can add other roles for haproxy-servers here
+#    - another role
+  post_tasks:
+  - shell: echo 'End Proxy Servers Installation...'
