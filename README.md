@@ -1,16 +1,15 @@
 # ansible-multiple-environements
 # At first we need a clean and simple directory hierarchy 
 # /etc/ansible/
-			|- ENV
-				|- dev
-					- hosts
-					- vars
-				|- int
-					- hosts
-					- vars
-				|- prod
-					- hosts
-					- vars
+			|- dev
+				- hosts
+				- vars
+			|- int
+				- hosts
+				- vars
+			|- prod
+				- hosts
+				- vars
 			|- archives
 			|- plays
 				- play1.yml
