@@ -1,0 +1,17 @@
+# Servers Dev Site here
+[proxy-servers]
+server3
+server7
+...
+
+[db-servers]
+server3
+server7
+server8
+...
+
+[appl-servers]
+server2
+server4
+...
+
