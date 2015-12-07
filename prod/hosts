@@ -1,1 +1,17 @@
 # Prod servers
+# Servers Dev Site here
+[proxy-servers]
+server33
+server77
+...
+
+[db-servers]
+server33
+server77
+server88
+...
+
+[appl-servers]
+server22
+server44
+...
