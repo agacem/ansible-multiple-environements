@@ -1,5 +1,8 @@
 # DEV SPECEFIC VARIABLES
 ---
+# Syntax
+Variable: value
+# Exemples here
 # HAPROXY Variables
 HAPROXY_timeout_server: 60m
 # NTP
