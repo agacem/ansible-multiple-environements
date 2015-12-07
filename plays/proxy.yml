@@ -1,5 +1,5 @@
 ---
-#haproxy.yml : playbook pfor HAProxy Servers
+#haproxy.yml : playbook for HAProxy Servers
 - hosts: proxy-servers
   pre_tasks:
   - shell: echo 'Starting Proxy Servers Installation'
