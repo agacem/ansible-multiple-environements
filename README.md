@@ -3,7 +3,7 @@
 At first we need a clean and simple directory hierarchy 
 # Execute 
 
-ansible-playbook plays/<play-name> -i "<ENV>/hosts" -e @"environments/<ENV>/vars"
+ansible-playbook plays/Playbook-name -i "ENV-Name/hosts" -e @"environments/ENV-Name/vars"
 
 # Hierarchy /etc/ansible/
 			|- dev
