@@ -1,9 +1,6 @@
-# ansible-multiple-environements
+# Ansible Multiple Environements
 
 At first we need a clean and simple directory hierarchy 
-# Execute 
-
-ansible-playbook plays/Playbook-name -i "ENV-Name/hosts" -e @"ENV-Name/vars"
 
 # Hierarchy /etc/ansible/
 			|- dev
@@ -50,3 +47,6 @@ ansible-playbook plays/Playbook-name -i "ENV-Name/hosts" -e @"ENV-Name/vars"
 			- ReadMe
 			- hosts
 			- ansible.cfg
+# Execute 
+
+ansible-playbook plays/Playbook-name -i "ENV-Name/hosts" -e @"ENV-Name/vars"
