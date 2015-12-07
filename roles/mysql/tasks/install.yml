@@ -1,0 +1,7 @@
+---
+- name: copy .my.cnf file with root password credentials
+  template: src=point.my.cnf.j2 dest=/root/.my.cnf owner=root mode=0600
+- name: install MySQL
+  action: yum name=mysql-server
+  notify:
+    - mysql_secure
