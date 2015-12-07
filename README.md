@@ -1,5 +1,5 @@
 # ansible-multiple-environements
-# At first we need a clean un simple directory hierarchy 
+# At first we need a clean and simple directory hierarchy 
 # /etc/ansible/
 			|- ENV
 				|- dev
