@@ -11,7 +11,7 @@ NTP_server=10.10.10.15
 # Password Mysql post-installation
 mysql_root_password: tochange
 # NTP
-NTP_server_IP: 10.3.0.254
+NTP_server_IP: 10.10.10.16
 # APACHE HTTP
 URL_ENV: my_dev-url_prefix1
 ...etc
